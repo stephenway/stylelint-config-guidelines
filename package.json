@@ -1,0 +1,47 @@
+
+{
+  "name": "stylelint-config-stephenway",
+  "version": "1.0.0",
+  "description": "My config for stylelint",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "standard"
+  ],
+  "author": "Stylelint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephenway/stylelint-config-stephenway.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.2.0",
+    "npmpub": "^3.0.1",
+    "stylelint": "^6.4.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^6.4.0"
+  },
+  "scripts": {
+    "ava": "ava --verbose \"__tests__/**/*.js\"",
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "npm run lint",
+    "release": "npmpub",
+    "test": "npm run ava"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "stylelint"
+    ]
+  }
+}
