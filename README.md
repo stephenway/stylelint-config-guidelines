@@ -1,2 +1,2 @@
 # stylelint-config-guidelines
-My config for stylelint
+This config is based on [CSSGuidelines](http://cssguidelin.es/) for [Stylelint](http://stylelint.io/).
