@@ -3,7 +3,7 @@ module.exports = {
 	  "at-rule-empty-line-before": [ "always", {
       except: ["first-nested"],
       ignore: ["after-comment"],
-      ignoreAtRules: ["import"]
+      ignoreAtRules: ["import", "apply"]
     } ],
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": "always",
