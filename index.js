@@ -43,7 +43,7 @@ module.exports = {
     "function-whitespace-after": "always",
     "function-url-quotes": "always",
     "indentation": null,
-    "length-zero-no-unit": "true",
+    "length-zero-no-unit": true,
     "max-empty-lines": 5,
     "max-line-length": 80,
     "media-feature-parentheses-space-inside": "never",
