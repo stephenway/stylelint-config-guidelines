@@ -31,7 +31,7 @@ module.exports = {
     "declaration-block-properties-order": "alphabetical",
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-newline-after": "always-multi-line",
-    "declaration-colon-space-after": "never",
+    "declaration-colon-space-after": null,
     "declaration-colon-space-before": "never",
     "function-calc-no-unspaced-operator": true,
     "function-comma-newline-after": "always-multi-line",
