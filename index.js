@@ -16,10 +16,7 @@ module.exports = {
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-no-invalid-hex": true,
-    "comment-empty-line-before": [ "always", {
-        except: ["first-nested"],
-        ignore: ["stylelint-commands"]
-    } ],
+    "comment-empty-line-before": null,
     "comment-whitespace-inside": null,
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
@@ -62,7 +59,7 @@ module.exports = {
     "property-no-vendor-prefix": true,
     "root-no-standard-properties": null,
     "rule-nested-empty-line-before": null,
-    "rule-non-nested-empty-line-before": "always-multi-line",
+    "rule-non-nested-empty-line-before": null,
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
     "selector-list-comma-newline-after": "always-multi-line",
