@@ -13,6 +13,6 @@ If you've installed `stylelint-config-guidelines` locally within your project, j
 
 ```json
 {
-  "extends": "stylelint-config-standard"
+  "extends": "stylelint-config-guidelines"
 }
 ```
