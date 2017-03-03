@@ -26,7 +26,8 @@
     "stylelint-order": "^0.3.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.0.2"
+    "stylelint": "^7.0.2",
+    "stylelint-order": "^0.3.0"
   },
   "scripts": {
     "ava": "ava --verbose \"__tests__/**/*.js\"",
