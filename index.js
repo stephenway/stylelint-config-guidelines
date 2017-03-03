@@ -1,4 +1,7 @@
 module.exports = {
+  "plugins": [
+    "stylelint-order"
+  ],
   "rules": {
 	  "at-rule-empty-line-before": [ "always", {
       except: ["first-nested"],
@@ -25,7 +28,6 @@ module.exports = {
     "declaration-block-semicolon-space-before": "never",
     "declaration-block-single-line-max-declarations": 1,
     "declaration-block-no-shorthand-property-overrides": true,
-    "declaration-block-properties-order": "alphabetical",
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-newline-after": "always-multi-line",
     "declaration-colon-space-after": null,
@@ -66,11 +68,11 @@ module.exports = {
     "selector-list-comma-space-before": "never",
     "selector-no-vendor-prefix": true,
     "selector-pseudo-element-colon-notation": "double",
-    "selector-root-no-composition": true,
     "string-quotes": "double",
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-no-vendor-prefix": true,
+    "declaration-block-properties-order": "alphabetical",
   },
 }

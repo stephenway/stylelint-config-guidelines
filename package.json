@@ -22,7 +22,8 @@
     "babel-eslint": "^6.1.2",
     "eslint": "^2.2.0",
     "npmpub": "^3.0.1",
-    "stylelint": "^7.0.2"
+    "stylelint": "^7.0.2",
+    "stylelint-order": "^0.3.0"
   },
   "peerDependencies": {
     "stylelint": "^7.0.2"
